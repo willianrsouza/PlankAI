@@ -1,0 +1,31 @@
+.card {
+  padding: 16px;
+  border-radius: 20px;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
+  max-width: 930px;
+  width: 100%;
+  margin: 0 auto;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.user {
+  background-color: #3797F0;
+  color: white;
+  text-align: right;
+}
+
+.bot {
+  background-color: #EEEFEE;
+  color: black;
+  text-align: left;
+}
+
+.messageContent {
+  font-size: 1.01rem;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  width: 100%;
+}
